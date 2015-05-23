@@ -1,0 +1,25 @@
+{
+  "name": "x1-test",
+  "version": "2.0.0",
+  "homepage": "https://github.com/vkarenko/x1",
+  "authors": [
+    "vkarenko <vitalii.karenko@me.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "slick.js": "~1.5.3",
+    "nouislider": "~7.0.10"
+  }
+}

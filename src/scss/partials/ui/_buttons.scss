@@ -1,0 +1,40 @@
+.rangeBox-btn {
+	position: relative;
+
+	display: inline-block;
+
+	height: 50px;
+	margin: -4px 0 0 0;
+
+	cursor: pointer;
+	user-select: none;
+	transition: background-color .2s linear;
+	vertical-align: middle;
+
+	border-radius: 4px;
+	&.orange {
+		color: #fff;
+		background-color: #f79d15;
+		box-shadow: 0 6px 0 0 #d48201, 0 8px 0 2px #6f757c;
+		&:hover {
+			background-color: #ffae00;
+		}
+		&:active {
+			top: 2px;
+
+			box-shadow: 0 4px 0 0 #d48201, 0 6px 0 2px #6f757c;
+		}
+	}
+	.text {
+		font-size: 28px;
+		font-weight: 200;
+		line-height: 50px;
+
+		display: inline-block;
+
+		min-width: 62px;
+		padding: 0 24px;
+
+		text-align: center;
+	}
+}
